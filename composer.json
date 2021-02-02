@@ -1,0 +1,19 @@
+{
+    "name": "autoloading/example",
+    "description": "just a demo of how autoloading works",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shahrier",
+            "email": "shahrier.off@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
